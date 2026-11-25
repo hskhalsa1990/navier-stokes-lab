@@ -1,0 +1,9 @@
+Approach,Pressure-velocity treatment,Strength,Trade-off
+Streamfunction-vorticity,Pressure eliminated in 2D,Compact teaching model,Difficult to extend to 3D
+Projection,Pressure Poisson correction,Clear transient incompressible workflow,Pressure boundary treatment
+SIMPLE,Iterative pressure correction,Steady incompressible CFD,May converge slowly
+PISO,Multiple pressure corrections,Transient flow,More work per time step
+Finite Volume,Face-flux conservation,Local conservation,Flux interpolation matters
+FEM,Weak form,Complex geometry,Assembly/stabilization complexity
+LES,Resolved scales + SGS,Unsteady turbulence,High computational cost
+RANS,Turbulence closure,Lower cost mean flow,Model uncertainty
